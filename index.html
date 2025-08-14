@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <title>Repalm Task</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="menu">
+          <li><a href="#">Головна</a></li>
+          <li class="dropdown">
+            <a href="#">Продукти</a>
+            <ul class="submenu">
+              <li><a href="#">Ноутбуки</a></li>
+              <li><a href="#">Телефони</a></li>
+              <li><a href="#">Планшети</a></li>
+              <li><a href="#">Аксесуари</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#">Послуги</a>
+            <ul class="submenu">
+              <li><a href="#">Доставка</a></li>
+              <li><a href="#">Гарантія</a></li>
+              <li><a href="#">Технічна підтримка</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <h1 class="title">Repalm Task</h1>
+      <section class="product-info">
+        <img
+          width="150"
+          height="150"
+          src="images/shampoo.png"
+          alt="animal-shampoo"
+        />
+        <h2>Animal Shampoo</h2>
+        <p class="description">
+          This is a high-quality shampoo designed to maintain hair quality and
+          provide round-the-clock protection.
+        </p>
+        <p class="price">
+          Price: <span class="original-price">$19.99</span>
+          <span class="discount-price">$10.00</span>
+        </p>
+        <div class="product-actions">
+          <button class="add-to-cart">Add to Cart</button>
+          <button class="heart-button">
+            <input type="checkbox" id="heart-toggle" />
+            <label for="heart-toggle">
+              <svg width="24" height="24">
+                <use href="symbol-defs.svg#icon-heart"></use>
+              </svg>
+            </label>
+          </button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
